@@ -100,7 +100,7 @@ Execute <b>2nd (“AWSDocs-HostingAWordPressBlog-AL” / “AWSDocs-HostingAWord
     <span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">:</span><br></p>
 <p>
     <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;">[+] </span></font><b><a href="https://console.aws.amazon.com/systems-manager/automation/execute/AWSDocs-InstallALAMPServer-AL2">https://console.aws.amazon.com/systems-manager/automation/execute/AWSDocs-InstallALAMPServer-AL2</a></b></p>
-<p><img src="https://kumo-knowledge-ui-iad-prod.amazon.com/attachment?namespace=aws_support_content&amp;attachmentId=3c4d6eae-bfe0-41a5-abec-bb72a41d6b4c" data-filename="image.png" style="width: 836.881px; height: 357.41px;"><b><br></b></p>
+<p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image1.JPG" data-filename="image.png" style="width: 836.881px; height: 357.41px;"><b><br></b></p>
 <p><span style="color: rgb(68, 68, 68);"><br></span></p>
 <p><span style="color: rgb(68, 68, 68);">Once you click on "</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execute"&nbsp;</span><span style="color: rgb(68, 68, 68);">Button the&nbsp;Automation</span><span style="font-weight: 700; color: rgb(68, 68, 68);">&nbsp;</span>
     <span style="color: rgb(68, 68, 68);">will start and you can see this as follows:</span>
