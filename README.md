@@ -109,7 +109,7 @@ Execute <b>2nd (“AWSDocs-HostingAWordPressBlog-AL” / “AWSDocs-HostingAWord
 <p><span style="color: rgb(68, 68, 68);">You can see the the&nbsp;</span><span style="color: rgb(68, 68, 68);"><b><a href="http://console.aws.amazon.com/cloudformation/home?#/stacks/" target="_blank">CloudFormation&nbsp;Console</a></b> to see what</span>
     <span style="color: rgb(68, 68, 68);">&nbsp;</span><span style="color: rgb(68, 68, 68);">resources are being created by Stack:</span><br></p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image3.JPG" style="width: 1049px;"><span style="color: rgb(68, 68, 68);"><br></span><br></p>
-<p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image4.JPG" data-filename="image.png" style="width: 845.08px; height: 522.132px;"><b><br></b></p>
+<p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image4.jpg" data-filename="image.png" style="width: 845.08px; height: 522.132px;"><b><br></b></p>
 <p><span style="color: rgb(68, 68, 68);">You can Monitor the overall <b>Success </b>in the&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execution Status&nbsp;</span><span style="color: rgb(68, 68, 68);">under&nbsp;<b><a href="http://console.aws.amazon.com/systems-manager/automation/executions?" target="_blank">SSM&nbsp;</a></b></span>
     <span style="font-weight: 700; color: rgb(68, 68, 68);"><a href="http://console.aws.amazon.com/systems-manager/automation/executions?" target="_blank">Automation Executions</a></span><span style="color: rgb(68, 68, 68);">&nbsp;:</span><b><br></b></p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image5.JPG" data-filename="image.png" style="width: 1049px;"><b><br></b></p>
@@ -126,12 +126,12 @@ Execute <b>2nd (“AWSDocs-HostingAWordPressBlog-AL” / “AWSDocs-HostingAWord
     </font><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">2nd Doc ( “AWSDocs-HostingAWordPressBlog-AL2”) :</span></p>
 <p><b><font color="#444444" face="Amazon Ember, sans-serif">[+] </font><a href="https://console.aws.amazon.com/systems-manager/automation/execute/AWSDocs-HostingAWordPressBlog-AL2">https://console.aws.amazon.com/systems-manager/automation/execute/AWSDocs-HostingAWordPressBlog-AL2</a></b></p>
 <p><b><br></b></p>
-<p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image7.JPG" data-filename="image.png" style="width: 1016.4px; height: 435.045px;">
+<p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image7.jpg" data-filename="image.png" style="width: 1016.4px; height: 435.045px;">
     <font color="#444444" face="Amazon Ember, sans-serif"><b><br></b></font><br><span style="color: rgb(68, 68, 68);">Once you click on "</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execute"&nbsp;</span><span style="color: rgb(68, 68, 68);">Button the&nbsp;Automation</span><span style="font-weight: 700; color: rgb(68, 68, 68);">&nbsp;</span>
     <span style="color: rgb(68, 68, 68);">will start performing actions on your <b><u>Instance</u> </b>you can see this as follows:</span>
 </p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image8.JPG" data-filename="image.png" style="width: 1049px;"><span style="color: rgb(68, 68, 68);"><br></span></p>
-<p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image9.JPG" data-filename="image.png" style="width: 1011.08px; height: 339.276px;"><span style="color: rgb(68, 68, 68);"><br></span></p>
+<p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image9.jpg" data-filename="image.png" style="width: 1011.08px; height: 339.276px;"><span style="color: rgb(68, 68, 68);"><br></span></p>
 <p><span style="color: rgb(68, 68, 68);"><br></span></p>
 <p><span style="color: rgb(68, 68, 68);">You can Monitor the overall&nbsp;<span style="font-weight: 700;">Success&nbsp;</span>in the&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execution Status&nbsp;</span><span style="color: rgb(68, 68, 68);">under&nbsp;<span style="font-weight: 700;"><a href="http://console.aws.amazon.com/systems-manager/automation/executions?" target="_blank">SSM&nbsp;</a></span></span>
     <span style="font-weight: 700; color: rgb(68, 68, 68);"><a href="http://console.aws.amazon.com/systems-manager/automation/executions?" target="_blank">Automation Executions</a></span><span style="color: rgb(68, 68, 68);">&nbsp;:</span></p>
@@ -145,7 +145,7 @@ Execute <b>2nd (“AWSDocs-HostingAWordPressBlog-AL” / “AWSDocs-HostingAWord
     <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><span style="font-weight: 700;">3).</span>&nbsp;Attached an&nbsp;<b>EIP</b> to the Instance to make sure the IP doesn't change in future. To know more on EIP allocation and Assignment , please refer <b><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html" target="_blank">here</a></b>.</span>
     </font>
 </p>
-<p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image11.JPG" data-filename="image.png" style="width: 1049px;">
+<p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image11.jpg" data-filename="image.png" style="width: 1049px;">
     <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><br></span></font>
 </p>
 <p>
@@ -161,7 +161,7 @@ Execute <b>2nd (“AWSDocs-HostingAWordPressBlog-AL” / “AWSDocs-HostingAWord
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal">
     <font color="#444444" face="Amazon Ember">Also, it will automatically&nbsp;route you to <b>"WordPress wp-admin"</b> page which looks like below :</font>
 </p>
-<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image12.JPG" data-filename="image.png" style="width: 321.08px; height: 356.688px;">
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image12.jpg" data-filename="image.png" style="width: 321.08px; height: 356.688px;">
     <font color="#444444" face="Amazon Ember"><br></font>
 </p>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal">
@@ -170,23 +170,23 @@ Execute <b>2nd (“AWSDocs-HostingAWordPressBlog-AL” / “AWSDocs-HostingAWord
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal">
     <font color="#444444" face="Amazon Ember">Click <b>Continue </b>and&nbsp;</font><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;">&nbsp;</span><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;">Just fill in
 the information below and you’ll be on your way to using wordpress to manage your blog :</span></p>
-<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image13.JPG" data-filename="image.png" style="width: 429.271px; height: 463.34px;"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;"><br></span></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image13.jpg" data-filename="image.png" style="width: 429.271px; height: 463.34px;"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;"><br></span></p>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><br></p>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;">Please make a note of <b>username&nbsp;</b></span><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;">and <b>password </b>to manage your WordPress blog. Click on <b>"Install WordPress" </b>b</span>
     <span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;">utton.</span>
 </p>
-<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image14.JPG" data-filename="image.png" style="width: 424.08px; height: 225.38px;"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;"><br></span></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image14.jpg" data-filename="image.png" style="width: 424.08px; height: 225.38px;"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;"><br></span></p>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;">Click L<b>ogin</b>&nbsp;and use the Id and Password provided above :<br></span></p>
-<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image15.JPG" data-filename="image.png" style="width: 296px;"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;"><br></span></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image15.jpg" data-filename="image.png" style="width: 296px;"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;"><br></span></p>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;">Here is the <b>WordPress Dashboard </b>to manage you Blog:</span></p>
-<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image16.JPG" data-filename="image.png" style="width: 1049px;"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;"><br></span></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image16.jpg" data-filename="image.png" style="width: 1049px;"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;"><br></span></p>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;"><br></span></p>
 <p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal;"><span style="font-family: &quot;Amazon Ember&quot;; color: rgb(68, 68, 68); background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-weight: 700;">Checking my blog created :</span></span>
 </p>
 <p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal;"><span style="font-weight: 700;">[+]&nbsp;<a href="http://ec2-54-194-131-54.eu-west-1.compute.amazonaws.com/">http://ec2-54-194-131-54.eu-west-1.compute.amazonaws.com/</a>&nbsp; &nbsp; &nbsp;or&nbsp; &nbsp; [+]&nbsp;</span>
     <span style="background-color: rgb(255, 255, 255); font-weight: 700;"><a href="http://54.194.131.54/" style="background-color: rgb(255, 255, 255);">http://54.194.131.54/</a></span><br></p>
 <div><br></div>
-<div><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image17.JPG" data-filename="image.png" style="width: 848.966px; height: 388.469px;"><br></div>
+<div><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image17.jpg" data-filename="image.png" style="width: 848.966px; height: 388.469px;"><br></div>
 <div><br></div>
 <div><br></div>
 <div><br></div>
@@ -194,7 +194,7 @@ the information below and you’ll be on your way to using wordpress to manage y
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="color: rgb(68, 68, 68); font-weight: 700;">➜</span><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;To delete resources created you can go to&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><a href="http://console.aws.amazon.com/cloudformation/home?#/stacks/" target="_blank">CloudFormation Stack</a></span>
     <span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;and Select your Stack and choose <b>Delete</b>, It will automatically deletes resources.&nbsp;</span>
 </p>
-<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image18.JPG" data-filename="image.png" style="width: 760.969px; height: 240.115px;">
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image18.jpg" data-filename="image.png" style="width: 760.969px; height: 240.115px;">
     <span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><br></span>
 </p>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><br></span></p>
@@ -210,11 +210,11 @@ the information below and you’ll be on your way to using wordpress to manage y
     <p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal;">
         <font color="#444444" face="Amazon Ember, sans-serif"><b><br></b></font>
     </p>
-    <p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal;"><https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image19.JPG" data-filename="image.png" style="width: 1049px;"><br></p>
+    <p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal;"><https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image19.jpg" data-filename="image.png" style="width: 1049px;"><br></p>
 </div>
-<div><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><span style="font-weight: 700;"><br></span></span><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image20.JPG" data-filename="image.png" style="width: 453px;"></div>
+<div><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><span style="font-weight: 700;"><br></span></span><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image20.jpg" data-filename="image.png" style="width: 453px;"></div>
 <div><br></div>
-<div><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image21.JPG" data-filename="image.png" style="width: 907px;"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><span style="font-weight: 700;"><br></span></span>
+<div><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image21.jpg" data-filename="image.png" style="width: 907px;"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><span style="font-weight: 700;"><br></span></span>
 </div>
 <div><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><span style="font-weight: 700;"><br></span></span>
 </div>
