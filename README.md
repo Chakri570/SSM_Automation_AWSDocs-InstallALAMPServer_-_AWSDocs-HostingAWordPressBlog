@@ -1,7 +1,7 @@
 # SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog
 <b> How to use AWS Systems Manager Automation to Install a LAMP Web Server &amp; Hosting a WordPress Blog on Amazon Linux or Amazon Linux 2 </b>
 
-<p><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px;">Background:</span></p>
+<p><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px;"><b>Background:</b></span></p>
 <p>
     <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><I>In general we follow the <b><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-tutorials.html" target="_blank">documentation</a></b>&nbsp;to help our customers to guide them how they can get started. Now, we have SSM Service which can do this in an automated fashion which is quicker and does all your job without any direct user interaction on OS level. </I> </span></font>
 </p>
@@ -68,15 +68,15 @@ Execute <b>2nd (“AWSDocs-HostingAWordPressBlog-AL” / “AWSDocs-HostingAWord
 <p style="margin-top:0cm;margin-right:0cm;margin-bottom:7.5pt;margin-left:0cm"><span style="color: rgb(68, 68, 68); font-weight: 700;">➜</span><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;You can preserve your resources (to avoid any accidental deletion) using&nbsp;</span><span style="color: rgb(68, 68, 68); font-weight: 700; font-family: &quot;Amazon Ember&quot;, sans-serif;"> <b><a href="http://console.aws.amazon.com/cloudformation/home?#/stacks/" target="_blank">CloudFormation Stack </b></a></span>
     <font color="#444444" face="Amazon Ember, sans-serif" style="color: rgb(68, 68, 68);">&nbsp;by choosing -&nbsp;</font><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><b>"Stack Actions"</b> -&gt; <b>"Edit Termination Protection"</b> --&gt;&nbsp;</span>
     <font color="#444444" face="Amazon Ember, sans-serif" style="color: rgb(68, 68, 68);">Choose&nbsp;</font><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">- <b>"Enabled"</b> &amp; <b>Save</b></span></p>
-<p style="margin-top:0cm;margin-right:0cm;margin-bottom:7.5pt;margin-left:0cm"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700;"><b>----------------------------------------------------------------------------------------------------------------------------------------------------------</b></span><br></p>
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:7.5pt;margin-left:0cm"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700;"><b>------------------------------------------------------------------------------------------------------------------</b></span><br></p>
 <p>
     <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif" style="color: rgb(68, 68, 68); font-weight: 700;"><span style="font-size: 16px;"><b><I>Now, we will see how to use&nbsp;</span></font><span style="color: rgb(68, 68, 68); font-weight: 700; font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px;">AWS Systems Manager Automation Documents .. I will be taking an Example for "Amazon Linux 2"</b></I></span></p>
 <p>
-    <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><b>----------------------------------------------------------------------------------------------------------------------------------------------------------</b></span></font>
+    <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><b>------------------------------------------------------------------------------------------------------------------</b></span></font>
 </p>
 <ul>
     <li>
-        <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif" style=""><span style="color: rgb(68, 68, 68); font-size: 16px; font-weight: 700;"><u><b>Use Case</b></u></span><span style="font-size: 16px;">&nbsp;:-&nbsp; </I>"I want to Install LAMP over Amazon Linux 2 based Instance and want to host a WordPress&nbsp;Blog on it</I></span></font>
+        <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif" style=""><span style="color: rgb(68, 68, 68); font-size: 16px; font-weight: 700;"><u><b>Use Case</b></u></span><span style="font-size: 16px;">&nbsp;:-&nbsp; </I><b>"I want to Install LAMP over Amazon Linux 2 based Instance and want to host a WordPress&nbsp;Blog on it</b></I></span></font>
         <span style="color: rgb(68, 68, 68); font-size: 16px; font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif;">"</span>
     </li>
 </ul>
@@ -96,13 +96,13 @@ Execute <b>2nd (“AWSDocs-HostingAWordPressBlog-AL” / “AWSDocs-HostingAWord
     <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><b><br></b></span></font>
 </p>
 <p>
-    <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><b>1).</b> Click on below quick-link to Execute&nbsp;</span></font><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif; font-weight: 700;">1st Doc (“AWSDocs-InstallALAMPServer-AL2”) </span>
+    <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><b>1).</b> Click on below quick-link to Execute&nbsp;</span></font><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif; font-weight: 700;"><b>1st Doc (“AWSDocs-InstallALAMPServer-AL2”)</b> </span>
     <span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">:</span><br></p>
 <p>
     <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;">[+] </span></font><b><a href="https://console.aws.amazon.com/systems-manager/automation/execute/AWSDocs-InstallALAMPServer-AL2">https://console.aws.amazon.com/systems-manager/automation/execute/AWSDocs-InstallALAMPServer-AL2</a></b></p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image1.JPG" data-filename="image.png" style="width: 836.881px; height: 357.41px;"><b><br></b></p>
 <p><span style="color: rgb(68, 68, 68);"><br></span></p>
-<p><span style="color: rgb(68, 68, 68);">Once you click on "</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execute"&nbsp;</span><span style="color: rgb(68, 68, 68);">Button the&nbsp;Automation</span><span style="font-weight: 700; color: rgb(68, 68, 68);">&nbsp;</span>
+<p><span style="color: rgb(68, 68, 68);">Once you click on "</span><span style="font-weight: 700; color: rgb(68, 68, 68);"><b>Execute"&nbsp;</span><span style="color: rgb(68, 68, 68);">Button</b> then Automation</span><span style="font-weight: 700; color: rgb(68, 68, 68);">&nbsp;</span>
     <span style="color: rgb(68, 68, 68);">will start and you can see this as follows:</span>
 </p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image2.JPG" data-filename="image.png" style="width: 812.761px; height: 285.125px;"></p>
@@ -110,11 +110,10 @@ Execute <b>2nd (“AWSDocs-HostingAWordPressBlog-AL” / “AWSDocs-HostingAWord
     <span style="color: rgb(68, 68, 68);">&nbsp;</span><span style="color: rgb(68, 68, 68);">resources are being created by Stack:</span><br></p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image3.JPG" style="width: 1049px;"><span style="color: rgb(68, 68, 68);"><br></span><br></p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image4.jpg" data-filename="image.png" style="width: 845.08px; height: 522.132px;"><b><br></b></p>
-<p><span style="color: rgb(68, 68, 68);">You can Monitor the overall <b>Success </b>in the&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execution Status&nbsp;</span><span style="color: rgb(68, 68, 68);">under&nbsp;<b><a href="http://console.aws.amazon.com/systems-manager/automation/executions?" target="_blank">SSM&nbsp;</a></b></span>
-    <span style="font-weight: 700; color: rgb(68, 68, 68);"><a href="http://console.aws.amazon.com/systems-manager/automation/executions?" target="_blank">Automation Executions</a></span><span style="color: rgb(68, 68, 68);">&nbsp;:</span><b><br></b></p>
+<p><span style="color: rgb(68, 68, 68);">You can Monitor the overall <b>Success </b>in the&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execution Status&nbsp;</span><span style="color: rgb(68, 68, 68);">under&nbsp;<a href="http://console.aws.amazon.com/systems-manager/automation/executions?" target="_blank"><b>SSM Automation Executions</b></a></span><span style="color: rgb(68, 68, 68);">&nbsp;:</span><b><br></b></p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image5.JPG" data-filename="image.png" style="width: 1049px;"><b><br></b></p>
 <p><b><br></b></p>
-<p><span style="color: rgb(68, 68, 68);">We have an EC2 Instance ready with required configurations:</span></p>
+<p><span style="color: rgb(68, 68, 68);"><b>We have an EC2 Instance ready with required configurations:</b></span></p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image6.JPG" data-filename="image.png" style="width: 1049px;"><span style="color: rgb(68, 68, 68);"><br></span></p>
 <p><br></p>
 <p><span style="color: rgb(68, 68, 68);">We've confirmed the&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execution Status&nbsp;- "</span><span style="color: rgb(68, 68, 68);"><b>Success"&nbsp;</b>for first doc, Now, we can proceed further for our next step..</span><br></p>
@@ -123,22 +122,21 @@ Execute <b>2nd (“AWSDocs-HostingAWordPressBlog-AL” / “AWSDocs-HostingAWord
 </p>
 <p>
     <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><span style="font-weight: 700;">2).</span>&nbsp;Click on below quick-link to Execute&nbsp;</span>
-    </font><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">2nd Doc ( “AWSDocs-HostingAWordPressBlog-AL2”) :</span></p>
+    </font><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"> <b>2nd Doc ( “AWSDocs-HostingAWordPressBlog-AL2”):</b></span></p>
 <p><b><font color="#444444" face="Amazon Ember, sans-serif">[+] </font><a href="https://console.aws.amazon.com/systems-manager/automation/execute/AWSDocs-HostingAWordPressBlog-AL2">https://console.aws.amazon.com/systems-manager/automation/execute/AWSDocs-HostingAWordPressBlog-AL2</a></b></p>
 <p><b><br></b></p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image7.jpg" data-filename="image.png" style="width: 1016.4px; height: 435.045px;">
-    <font color="#444444" face="Amazon Ember, sans-serif"><b><br></b></font><br><span style="color: rgb(68, 68, 68);">Once you click on "</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execute"&nbsp;</span><span style="color: rgb(68, 68, 68);">Button the&nbsp;Automation</span><span style="font-weight: 700; color: rgb(68, 68, 68);">&nbsp;</span>
+    <font color="#444444" face="Amazon Ember, sans-serif"><b><br></b></font><br><span style="color: rgb(68, 68, 68);">Once you click on "</span><span style="font-weight: 700; color: rgb(68, 68, 68);"><b>"Execute"</b>&nbsp;</span><span style="color: rgb(68, 68, 68);">Button the&nbsp;Automation</span><span style="font-weight: 700; color: rgb(68, 68, 68);">&nbsp;</span>
     <span style="color: rgb(68, 68, 68);">will start performing actions on your <b><u>Instance</u> </b>you can see this as follows:</span>
 </p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image8.JPG" data-filename="image.png" style="width: 1049px;"><span style="color: rgb(68, 68, 68);"><br></span></p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image9.jpg" data-filename="image.png" style="width: 1011.08px; height: 339.276px;"><span style="color: rgb(68, 68, 68);"><br></span></p>
 <p><span style="color: rgb(68, 68, 68);"><br></span></p>
-<p><span style="color: rgb(68, 68, 68);">You can Monitor the overall&nbsp;<span style="font-weight: 700;">Success&nbsp;</span>in the&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execution Status&nbsp;</span><span style="color: rgb(68, 68, 68);">under&nbsp;<span style="font-weight: 700;"><a href="http://console.aws.amazon.com/systems-manager/automation/executions?" target="_blank">SSM&nbsp;</a></span></span>
-    <span style="font-weight: 700; color: rgb(68, 68, 68);"><a href="http://console.aws.amazon.com/systems-manager/automation/executions?" target="_blank">Automation Executions</a></span><span style="color: rgb(68, 68, 68);">&nbsp;:</span></p>
+<p><span style="color: rgb(68, 68, 68);">You can Monitor the overall&nbsp;<span style="font-weight: 700;"><b>Success</b>&nbsp;</span>in the&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execution Status&nbsp;</span><span style="color: rgb(68, 68, 68);">under&nbsp;<span style="font-weight: 700;"><a href="http://console.aws.amazon.com/systems-manager/automation/executions?" target="_blank"><b>SSM Automation Executions</b></a></span><span style="color: rgb(68, 68, 68);">&nbsp;:</span></p>
 <p><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image10.JPG" data-filename="image.png" style="width: 1049px;"><br></p>
 <p><span style="color: rgb(68, 68, 68);"><br></span></p>
-<p><span style="color: rgb(68, 68, 68);">We've confirmed the&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execution Status&nbsp;- "</span><span style="color: rgb(68, 68, 68);"><span style="font-weight: 700;">Success"&nbsp;</span>for
-    second doc as well, Now, we can proceed further for our next step for final touch on WordPress..</span>
+<p><span style="color: rgb(68, 68, 68);"><b> ----------- We've confirmed the&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execution Status&nbsp;- "</span><span style="color: rgb(68, 68, 68);"><span style="font-weight: 700;">Success"&nbsp;</span>for
+    second doc as well, Now, we can proceed further for our next step for final touch on WordPress..</b></span>
 </p>
 <p><br></p>
 <p>
@@ -152,7 +150,7 @@ Execute <b>2nd (“AWSDocs-HostingAWordPressBlog-AL” / “AWSDocs-HostingAWord
     <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><br></span></font>
 </p>
 <p><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700;">4).</span><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px;">&nbsp;</span>
-    <span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;">Once the Automation has completed, you will be able to navigate to the WordPress blog dashboard by navigating to the public DNS address (or the public IP address) of the launched instance:</span>
+    <span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;;">Once the Automation has completed, you will be able to navigate to the WordPress blog dashboard by entering the public DNS address (or the public IP address) of the launched instance in your web browser:</span>
 </p>
 
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="font-family: &quot;Amazon Ember&quot;; color: rgb(68, 68, 68); background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><b>For example:&nbsp; (in my use-case)</b></span></p>
@@ -191,17 +189,17 @@ the information below and you’ll be on your way to using wordpress to manage y
 <div><br></div>
 <div><br></div>
 <div><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><b>&lt;&lt; To delete the Resources created &gt;&gt;</b></span><br></div>
-<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="color: rgb(68, 68, 68); font-weight: 700;">➜</span><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;To delete resources created you can go to&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><a href="http://console.aws.amazon.com/cloudformation/home?#/stacks/" target="_blank">CloudFormation Stack</a></span>
-    <span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;and Select your Stack and choose <b>Delete</b>, It will automatically deletes resources.&nbsp;</span>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="color: rgb(68, 68, 68); font-weight: 700;">➜</span><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;To delete resources created you can go to&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><a href="http://console.aws.amazon.com/cloudformation/home?#/stacks/" target="_blank"><b>CloudFormation Stack</b></a></span>
+    <span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;and Select your Stack and choose <b>"Delete"</b>, It will automatically deletes resources.&nbsp;</span>
 </p>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><img src="https://github.com/dineshrathee12/SSM_Automation_AWSDocs-InstallALAMPServer_-_AWSDocs-HostingAWordPressBlog/blob/master/Images/Image18.jpg" data-filename="image.png" style="width: 760.969px; height: 240.115px;">
     <span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><br></span>
 </p>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><br></span></p>
-<div><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><span style="font-weight: 700;">&lt;&lt; To preserve the Resources created / Avoid Accidental deletion &gt;&gt;</span></span>
+<div><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><span style="font-weight: 700;">&lt;&lt; <b>--------To preserve the Resources created / Avoid Accidental deletion--------------</b> &gt;&gt;</span></span>
 </div>
 <div>
-    <p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal;"><span style="color: rgb(68, 68, 68); font-weight: 700;">➜</span><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;You can go to&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><a href="http://console.aws.amazon.com/cloudformation/home?#/stacks/" target="_blank">CloudFormation Stack</a></span>
+    <p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal;"><span style="color: rgb(68, 68, 68); font-weight: 700;">➜</span><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;You can go to&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><a href="http://console.aws.amazon.com/cloudformation/home?#/stacks/" target="_blank"><b>CloudFormation Stack</b></a></span>
         <font color="#444444" face="Amazon Ember, sans-serif">&nbsp;and Select your Stack and choose - </font><b style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">"Stack Actions" -&gt; "Edit Termination Protection" --&gt; </b>
         <font color="#444444" face="Amazon Ember, sans-serif">Choose </font><b style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">- "Enabled" &amp; Save</b></p>
     <p class="MsoNormal" style="margin-bottom: 7.5pt; line-height: normal;"><b style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><br></b>
@@ -223,14 +221,14 @@ the information below and you’ll be on your way to using wordpress to manage y
 <div><br></div>
 <div><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><span style="font-weight: 700;"><br></span></span>
 </div>
-<div><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px;"><u>Steps Using AWS CLI:</u></span></div>
+<div><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px;"><u><b>========= LPerforming above Steps Using AWS CLI ================ </b></u></span></div>
 <div><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px;"><u><br></u></span></div>
-<div><span style="color: rgb(68, 68, 68); font-weight: 700; font-size: 16px;"><font face="Amazon Ember, Helvetica, Arial, sans-serif">1). Running 1st&nbsp;</font></span><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif; font-weight: 700;">Doc (“AWSDocs-InstallALAMPServer-AL2”)&nbsp;</span>
+<div><span style="color: rgb(68, 68, 68); font-weight: 700; font-size: 16px;"><font face="Amazon Ember, Helvetica, Arial, sans-serif">1). <b>Running 1st</b>&nbsp;</font></span><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif; font-weight: 700;"><b>Doc (“AWSDocs-InstallALAMPServer-AL2”)</b>&nbsp;</span>
     <span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">:</span>
 </div>
 <div><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;"><br></span></div>
 <div><pre style=""><font color="#444444" face="Amazon Ember, sans-serif"># aws ssm <b>start-automation-execution</b> --document-name <b>"AWSDocs-InstallALAMPServer-AL2" </b>--document-version "\$DEFAULT" <b>--region eu-west-1</b><br></font><font color="#444444" face="Amazon Ember, sans-serif">{<br></font><font color="#444444" face="Amazon Ember, sans-serif">&nbsp; &nbsp; "AutomationExecutionId": <b>"bd56b368-1a52-43e8-ac53-c0fd9175a599"</b><br></font><font color="#444444" face="Amazon Ember, sans-serif">}</font></pre><br></div>
-<div><span style="color: rgb(68, 68, 68); font-weight: 700;">-&nbsp;</span><span style="color: rgb(68, 68, 68); font-weight: 700;">Checking the Automation progress&nbsp;</span><span style="color: rgb(68, 68, 68); font-weight: 700;">/ Status:</span></div>
+<div><span style="color: rgb(68, 68, 68); font-weight: 700;">-&nbsp;</span><span style="color: rgb(68, 68, 68); font-weight: 700;"><b>Checking the Automation progress</b>&nbsp;</span><span style="color: rgb(68, 68, 68); font-weight: 700;"><b>/ Status:</b></span></div>
 <div><span style="color: rgb(68, 68, 68); font-weight: 700;"><br></span></div>
 <div><pre style=""><font color="#444444"># aws ssm <b>get-automation-execution</b> --automation-execution-id <b>"bd56b368-1a52-43e8-ac53-c0fd9175a599"</b> <b>--region eu-west-1</b> --output text --query "AutomationExecution.AutomationExecutionStatus"<br></font><font color="#444444"><b>InProgress</b></font></pre>
     <span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px;"><u><br></u></span>
@@ -238,21 +236,21 @@ the information below and you’ll be on your way to using wordpress to manage y
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal">
     <o:p></o:p>
 </p>
-<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="font-weight: 700; color: rgb(68, 68, 68);">- Lets wait for few mins to get this completed and Can check the Status again:</span></p><pre style="margin-bottom:7.5pt;line-height:normal"><font color="#444444"># aws ssm <b>get-automation-execution</b> --automation-execution-id <b>"bd56b368-1a52-43e8-ac53-c0fd9175a599"</b> <b>--region eu-west-1 -</b>-output text --query "AutomationExecution.AutomationExecutionStatus"<br></font><font color="#444444"><b>Success</b></font></pre>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="font-weight: 700; color: rgb(68, 68, 68);"><b>- Lets wait for few mins to get this completed and Can check the Status again:</b></span></p><pre style="margin-bottom:7.5pt;line-height:normal"><font color="#444444"># aws ssm <b>get-automation-execution</b> --automation-execution-id <b>"bd56b368-1a52-43e8-ac53-c0fd9175a599"</b> <b>--region eu-west-1 -</b>-output text --query "AutomationExecution.AutomationExecutionStatus"<br></font><font color="#444444"><b>Success</b></font></pre>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="font-weight: 700; color: rgb(68, 68, 68);"><br></span></p>
-<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="font-weight: 700; color: rgb(68, 68, 68);">- You can also check the CloudFormation Stack details/Status :</span></p><pre style="margin-bottom:7.5pt;line-height:normal"><font color="#444444"><b># </b>aws cloudformation <b>describe-stacks </b>--stack-name <b>"LAMPStack-AL2" </b>--region eu-west-1</font></pre>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="font-weight: 700; color: rgb(68, 68, 68);"><b>- You can also check the CloudFormation Stack details/Status :</b></span></p><pre style="margin-bottom:7.5pt;line-height:normal"><font color="#444444"><b># </b>aws cloudformation <b>describe-stacks </b>--stack-name <b>"LAMPStack-AL2" </b>--region eu-west-1</font></pre>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="font-weight: 700; color: rgb(68, 68, 68);"><br></span></p>
-<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="font-weight: 700; color: rgb(68, 68, 68);">-&nbsp;</span><span style="color: rgb(68, 68, 68); font-weight: 700;">To define CloudFormation stack resources :</span></p>
+<p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"><span style="font-weight: 700; color: rgb(68, 68, 68);">-&nbsp;</span><span style="color: rgb(68, 68, 68); font-weight: 700;"><b>To define CloudFormation stack resources :</b></span></p>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"></p><pre><font color="#444444"># aws cloudformation <b>describe-stack-resources&nbsp;</b> --stack-name <b>"LAMPStack-AL2"</b> --region eu-west-1</font></pre>
 <font color="#444444" face="Amazon Ember"><b><br></b></font>
 <p></p>
-<p><span style="color: rgb(68, 68, 68);">We've confirmed the&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execution Status&nbsp;- "</span><span style="color: rgb(68, 68, 68);"><span style="font-weight: 700;">Success"&nbsp;</span>for
+<p><span style="color: rgb(68, 68, 68);">We've confirmed the&nbsp;</span><span style="font-weight: 700; color: rgb(68, 68, 68);">Execution Status&nbsp;- "</span><span style="color: rgb(68, 68, 68);"><span style="font-weight: 700;"><b>Success</b>"&nbsp;</span>for
     first doc as well as CloudFormation stack status &amp; resources, Now, we can proceed further for our next step..</span>
 </p>
 <p><br></p>
 <p>
     <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><span style="font-weight: 700;">2).</span>&nbsp;<b>Running</b></span>
-    </font><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;2nd Doc ( “AWSDocs-HostingAWordPressBlog-AL2”) :</span></p><pre style="margin-bottom:7.5pt;line-height:normal"><font color="#444444" face="Amazon Ember"># aws ssm <b>start-automation-execution </b>--document-name <b>"AWSDocs-HostingAWordPressBlog-AL2"</b> --document-version "\$DEFAULT" <b>--region eu-west-1<br></b></font><font color="#444444" face="Amazon Ember">{<br></font><font color="#444444" face="Amazon Ember">&nbsp; &nbsp; "AutomationExecutionId": <b>"d61b49b7-1e36-488b-ba58-852f603dd373"<br></b></font><font color="#444444" face="Amazon Ember">}</font></pre>
+    </font><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif;">&nbsp;<b>2nd Doc ( “AWSDocs-HostingAWordPressBlog-AL2”) :</b></span></p><pre style="margin-bottom:7.5pt;line-height:normal"><font color="#444444" face="Amazon Ember"># aws ssm <b>start-automation-execution </b>--document-name <b>"AWSDocs-HostingAWordPressBlog-AL2"</b> --document-version "\$DEFAULT" <b>--region eu-west-1<br></b></font><font color="#444444" face="Amazon Ember">{<br></font><font color="#444444" face="Amazon Ember">&nbsp; &nbsp; "AutomationExecutionId": <b>"d61b49b7-1e36-488b-ba58-852f603dd373"<br></b></font><font color="#444444" face="Amazon Ember">}</font></pre>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal"></p>
 <p class="MsoNormal" style="margin-bottom:7.5pt;line-height:normal">
     <font color="#444444" face="Amazon Ember"><br></font><span style="color: rgb(68, 68, 68); font-weight: 700;">- Lets wait for few mins to get this completed and Can check the Status :</span></p><pre style="margin-bottom:7.5pt;line-height:normal"># aws ssm <b>get-automation-execution</b> --automation-execution-id <b>"d61b49b7-1e36-488b-ba58-852f603dd373" </b>--region <b>eu-west-1</b> --output text --query "AutomationExecution.AutomationExecutionStatus"<br><b>Success</b></pre>
@@ -264,7 +262,7 @@ mso-fareast-language:EN-GB"><o:p></o:p></span></p>
     <font color="#444444"><b>You can read more on AWS CLI references here :</b></font>
 </p>
 <p><b><font color="#444444">[+] SSM AWS CLI References :&nbsp;</font><a href="https://docs.aws.amazon.com/cli/latest/reference/ssm/index.html#cli-aws-ssm">https://docs.aws.amazon.com/cli/latest/reference/ssm/index.html#cli-aws-ssm</a><a href="https://docs.aws.amazon.com/cli/latest/reference/ssm/index.html#cli-aws-ssm"></a></b></p>
-<p><b><font color="#444444" style="">[+] CloudFormation AWS CLI References :&nbsp;</font></b><a href="https://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html#cli-aws-cloudformation">https://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html#cli-aws-cloudformation</a><b><a href="https://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html#cli-aws-cloudformation" style=""></a></b></p>
+<p><b><font color="#444444" style="">[+] CloudFormation AWS CLI References :&nbsp;</font></b><a href="https://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html#cli-aws-cloudformation"><b>https://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html#cli-aws-cloudformation</b></a><b><a href="https://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html#cli-aws-cloudformation" style=""></a></b></p>
 <p><br></p>
 <p><u style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif; font-weight: 700;">Some other references to check&nbsp;</u><span style="color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, sans-serif; font-weight: 700;">:</span><br></p>
 <p>
@@ -286,7 +284,7 @@ mso-fareast-language:EN-GB"><o:p></o:p></span></p>
 <p><br></p>
 <p><b>[+] Troubleshooting AWS CloudFormation </b>: <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html">https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/troubleshooting.html</a></p>
 <p><b>[+] Troubleshooting Systems Manager Automation:</b> <a href="https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-troubleshooting.html">https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-troubleshooting.html</a></p>
-<p><b>[+] WordPress :</b> <a href="https://tiny.amazon.com/olzpp33h/googpageaclk">https://tiny.amazon.com/olzpp33h/googpageaclk</a>
+<p><b>[+] WordPress :</b> <a href="https://wordpress.com/start/?ref=create-lp">https://wordpress.com/start/?ref=create-lp</a>
     <a href="https://tiny.amazon.com/olzpp33h/googpageaclk"></a>
 </p>
 <p><br></p>
