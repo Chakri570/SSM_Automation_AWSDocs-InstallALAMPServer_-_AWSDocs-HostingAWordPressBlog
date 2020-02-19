@@ -3,7 +3,7 @@
 
 <p><span style="font-weight: 700; color: rgb(68, 68, 68); font-family: &quot;Amazon Ember&quot;, Helvetica, Arial, sans-serif; font-size: 16px;"><b>Background:</b></span></p>
 <p>
-    <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><I>In general we follow the <b><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-tutorials.html" target="_blank">documentation</a></b>&nbsp;to help our customers to guide them how they can get started. Now, we have SSM Service which can do this in an automated fashion which is quicker and does all your job without any direct user interaction on OS level. </I> </span></font>
+    <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><I>In general we follow the <b><a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-tutorials.html" target="_blank">documentation</a></b>&nbsp;to get started. Now, we have SSM Service which can do this in an automated fashion which is quicker and does all your job without any direct user interaction on OS level. </I> </span></font>
 </p>
 <p>
     <font color="#444444" face="Amazon Ember, Helvetica, Arial, sans-serif"><span style="font-size: 16px;"><br></span></font>
